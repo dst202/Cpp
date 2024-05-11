@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: Designed to Build all files in current directory",
+            "command": "/bin/bash",
+            "args": [
+                "-c",
+                "/usr/bin/g++ -g -std=c++20 \"$(find . -name '*.cpp')\" -o booster"            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "reveal": "silent",
+                "panel": "dedicated"
+            }
+        }
+    ]
+}
