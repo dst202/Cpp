@@ -1,2 +1,4 @@
-# cuddly-carnival
-Repo containing projects created suring learning phase of C++
+# Repo contains jusst some practice codes for c++
+
+__
+Repo 
