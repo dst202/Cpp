@@ -7,6 +7,11 @@
             "command": "/bin/bash",
             "args": [
                 "-c",
+                "-Wall",
+                "-Weffc++",
+                "-Wextra",
+                "-Wconversion",
+                "-Wsign-conversion",
                 "/usr/bin/g++ -g -std=c++20 \"$(find . -name '*.cpp')\" -o booster"            ],
             "group": "build",
             "problemMatcher": [
